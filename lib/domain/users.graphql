@@ -1,0 +1,12 @@
+query GetUser{
+  user{
+    me{
+      id,
+      fullname,
+      avatarURL,
+      email,
+      telephone,
+      address
+    }
+  }
+}

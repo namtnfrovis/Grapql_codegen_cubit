@@ -1,0 +1,16 @@
+
+type Query{
+user: UserQuery
+}
+type UserQuery{
+me: User
+}
+
+type User{
+id: ID!
+fullname: String!
+avatarURL: String
+email: String!
+telephone: String!
+address: String!
+}
